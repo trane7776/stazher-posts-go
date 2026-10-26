@@ -1,0 +1,7 @@
+.cache
+.git
+.env
+*.exe
+**/*_test.go
+README.md
+requests.http

@@ -1,0 +1,7 @@
+CREATE TABLE posts (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    author_id TEXT NOT NULL,
+    title TEXT NOT NULL,
+    body TEXT NOT NULL,
+    comments_enabled BOOLEAN NOT NULL DEFAULT TRUE
+);
